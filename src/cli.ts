@@ -5,7 +5,7 @@ import fs from 'fs';
 import { platform } from 'os';
 import path from 'path';
 
-const parts = process.cwd().split(/[\\\/]+/g);
+const parts = __dirname.split(/[\\\/]+/g);
 let cwd = process.cwd();
 let installer = 'yarn add';
 
