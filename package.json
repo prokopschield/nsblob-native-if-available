@@ -1,13 +1,13 @@
 {
 	"name": "nsblob-native-if-available",
 	"description": "nsblob native if available, otherwise nsblob",
-	"version": "0.1.0-2",
+	"version": "0.1.0-3",
 	"main": "lib/index.js",
 	"bin": {
 		"nsblob-native-if-available": "lib/cli.js"
 	},
 	"scripts": {
-		"postinstall": "node lib/cli"
+		"postinstall": "node lib/cli.js"
 	},
 	"author": "Prokop Schield",
 	"dependencies": {
