@@ -1,14 +1,14 @@
 {
 	"name": "nsblob-native-if-available",
 	"description": "nsblob native if available, otherwise nsblob",
-	"version": "0.2.17-3",
+	"version": "0.2.17-4",
 	"main": "lib/index.js",
 	"author": "Prokop Schield",
 	"dependencies": {
 		"nsblob": "0.2.17"
 	},
 	"optionalDependencies": {
-		"nsblob-native": "0.2.17-3"
+		"nsblob-native": "0.2.17-4"
 	},
 	"devDependencies": {
 		"@types/node": ">=16"
